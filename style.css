@@ -1,0 +1,49 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    
+
+}
+h1{
+    font-size: 50px;
+}
+h3{
+    font-size: 25px;
+}
+section{
+    display:flex;
+}
+ 
+span{
+    color: hotpink;
+}
+.color-lime{
+    color:lime;
+}
+
+p{
+    text-align: justify;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.half-width{
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 5%; 
+}
+.half-width img{
+    height: 70%;
+    width: auto;  
+}
+ .half-width a{
+     text-decoration: none;
+    color:white;
+    border-radius: 5px;
+    padding: 10px 40px;
+    background-image: linear-gradient(rgb(223, 47, 3), rgb(252, 102, 2));
+ }
+ .half-width image{
+     margin: 0;
+ }
