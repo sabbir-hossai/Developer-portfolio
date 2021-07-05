@@ -10,7 +10,7 @@ h1{
 h3{
     font-size: 25px;
 }
-section{
+.flexible-container{
     display:flex;
     margin-top: 0;
     margin-bottom: 5px;
@@ -31,7 +31,7 @@ p{
     background-repeat: no-repeat;
 }
 .half-width{
-    width: 50%;
+    width: 40%;
     margin-left: 5%;
     margin-top: 5%; 
 }
@@ -54,3 +54,31 @@ p{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+ }
+ .experiences-area{
+     background-image: url(images/exp-bg.png);
+     background-repeat: no-repeat;
+     background-position: left;
+ }
+ .experiences-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+    box-shadow: 10px 10px 10px 7px gray;
+    border-radius: 5px;
+ }
+ .Ful-Stack-Developer{
+     border-left: 7px solid;
+
+    border-image: linear-gradient(red,yellow) ;
+    border-image-slice: 1;
+
+ }
+ .Baby-Developer{
+    border-left: 7px solid;
+
+    border-image: linear-gradient(blue,lime) ;
+    border-image-slice: 1;
+    
+ }
